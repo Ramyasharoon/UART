@@ -1,0 +1,29 @@
+Time(ns)   TX_START   DATA    BUSY   TX
+
+20         0          --      0      1
+
+40         1          A5      1      0 (Start)
+
+50                     A5      1      1
+
+60                     A5      1      0
+
+70                     A5      1      1
+
+80                     A5      1      0
+
+90                     A5      1      0
+
+100                    A5      1      1
+
+110                    A5      1      0
+
+120                    A5      1      1
+
+130                    A5      1      1 (Stop)
+
+300        1          3C      1      0 (Start)
+
+...
+
+Transmission Completed
